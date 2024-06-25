@@ -2,13 +2,30 @@
 This is a PCB that converts the Waveshare RP2040-Zero in a drop-in replacement for a Pro Micro.
 
 # Pinouts - RP2040-Zero to Pro Micro
-5V  ->  RAW     GP4  ->  SDA     GP11 -> P9    GP28 -> P20
-3V3 ->  VCC     GP5  ->  SCL     GP12 -> P8    GP29 -> P21
-GND ->  GND     GP6  ->  NONE    GP13 -> P7
-GP0 ->  TX      GP7  ->  P6      GP14 -> SCLK
-GP1 ->  RX      GP8  ->  MISO    GP15 -> MOSI
-GP2 ->  P4      GP9  ->  P18     GP26 -> NONE
-GP3 ->  P5      GP10 ->  P10     GP27 -> P19
+
+| RP2040-ZERO  | PRO MICRO |
+| ------------- | ------------- |
+| 5V  | RAW |
+| 3V3 | VCC |
+| GND | GND |
+| GP0 | TX  |
+| GP1 | RX  |
+| GP2 | P4  |
+| GP3 | P5  |
+| GP4 | SDA |
+| GP5 | SCL |
+| GP6 | NONE |
+| GP7 | P6 |
+| GP8 | MISO |
+| GP9 | P18 |
+| GP10 | P10 |
+| GP11 | P9 |
+| GP12 | P8 |
+| GP13 | P7 |
+| GP14 | SCLK |
+| GP15 | MOSI |
+| GP26 | NONE |
+| GP27 | P19 |
 
 # How to Make/Purchase
 In this repository, there is a ZIP file called "RP2040_PRO_ZERO.ZIP". This is the precompiled ZIP file that one uses to order this from PCBWay or JLCPCB.
